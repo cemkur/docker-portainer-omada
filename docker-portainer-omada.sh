@@ -40,3 +40,4 @@ read -p "Press [Enter] key to edit docker-compose - replace 5.1 with latest-amd6
 nano docker-compose.yml
 read -p "Press [Enter] key to start omada docker image..."
 docker-compose up -d
+docker ps
