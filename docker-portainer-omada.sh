@@ -4,7 +4,7 @@ sudo apt install ca-certificates curl gnupg lsb-release -y
 read -p "Press [Enter] key to continue..."
 sudo mkdir -p /etc/apt/keyrings
 read -p "Press [Enter] key to continue..."
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg -y
 read -p "Press [Enter] key to continue..."
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
