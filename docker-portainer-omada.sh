@@ -1,3 +1,6 @@
+mkdir /opt/portainer
+mkdir /opt/omada
+mkdir /opt/scripts
 sudo apt update
 #read -p "Press [Enter] key to continue..."
 sudo apt install ca-certificates curl gnupg lsb-release -y
