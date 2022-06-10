@@ -3,7 +3,7 @@ mkdir /opt/omada
 mkdir /opt/scripts
 sudo apt update
 #read -p "Press [Enter] key to continue..."
-sudo apt install ca-certificates curl gnupg lsb-release -y
+sudo apt install ca-certificates curl gnupg lsb-release
 #read -p "Press [Enter] key to continue..."
 sudo mkdir -p /etc/apt/keyrings
 #read -p "Press [Enter] key to continue..."
